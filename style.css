@@ -10,10 +10,10 @@ h1{
 }
 .btn-top{
     text-decoration: none;
-    padding: 10px 40px;
-    background-image: linear-gradient(rgb(51, 218, 65), rgb(0, 0, 0));
+    padding: 20px 60px;
+    background-image: linear-gradient(rgb(45, 231, 45), black);
+    font-size: 22px;
     color: #fff;
-    border-radius: 5px;
     text-transform: uppercase;
 }
 .half-clmn{
@@ -31,4 +31,32 @@ h1{
 }
 .top-img{
     width: 70%;
+}
+.scnd-clmn img {
+    width: 70%;
+}
+.second-sec {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 100px;
+    background-position: right;
+}
+.scnd-clmn{
+    width: 50%;
+    padding-left: 5%;
+}
+.scnd-btn {
+    text-decoration: none;
+    padding: 20px 60px;
+    background-image: linear-gradient(rgb(45, 231, 45), black);
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.scnd-clmn p {
+    margin-bottom: 50px;
+}
+.scnd-clmn h2 {
+    font-size: 30px;
 }
